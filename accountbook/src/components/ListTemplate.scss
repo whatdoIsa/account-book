@@ -1,0 +1,17 @@
+.ListTemplate {
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  overflow: hidden;
+  justify-content: center;
+
+  .ListTitle {
+    font-size: 20px;
+    letter-spacing: -2px;
+    line-height: 1.5;
+    font-weight: bold;
+    border-bottom: solid;
+    margin-bottom: 10px;
+  }
+}

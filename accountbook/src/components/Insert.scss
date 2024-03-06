@@ -1,0 +1,66 @@
+button {
+  width: 100px;
+  height: 30px;
+  right: 0px;
+  justify-content: right;
+  align-items: right;
+  margin-left: 5px;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #000000;
+}
+
+.InsertButton {
+  z-index: 11;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 4rem;
+  color: #000000;
+  justify-content: right;
+}
+
+.InsertTemplate {
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 10;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  font-size: 1rem;
+  background-color: #487035;
+  input {
+    // 기본 스타일 초기화
+    height: 20px;
+    background: white;
+    outline: white;
+    border: none;
+    // 버튼을 제외한 영역을 모두 차지하기
+    flex: 1;
+  }
+}
+
+.InsertTitle {
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.InsertForm {
+  left: 50px;
+  width: 100%;
+}
+
+.InsertTop {
+  display: flex;
+  height: 31px;
+}
+.InsertBottom {
+  padding-left: 50px;
+}
